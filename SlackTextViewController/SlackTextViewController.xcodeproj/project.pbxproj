@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D34380502BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D343804F2BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy */; };
+		D34380512BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D343804F2BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy */; };
 		F52253811CBE2F85002EECA9 /* SLKInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = F522536B1CBE2F85002EECA9 /* SLKInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F52253821CBE2F85002EECA9 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F522536C1CBE2F85002EECA9 /* SLKInputAccessoryView.m */; };
 		F52253831CBE2F85002EECA9 /* SLKTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F522536D1CBE2F85002EECA9 /* SLKTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D343804F2BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		F522536B1CBE2F85002EECA9 /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKInputAccessoryView.h; sourceTree = "<group>"; };
 		F522536C1CBE2F85002EECA9 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKInputAccessoryView.m; sourceTree = "<group>"; };
 		F522536D1CBE2F85002EECA9 /* SLKTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInput.h; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 				F5A782771BD0CEF300EC230B /* SlackTextViewController.h */,
 				F5A7828F1BD0CF1D00EC230B /* Source */,
 				F5A782791BD0CEF400EC230B /* Info.plist */,
+				D343804F2BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy */,
 			);
 			path = SlackTextViewController;
 			sourceTree = "<group>";
@@ -245,6 +249,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -264,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34380502BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34380512BAC3EF600CA7CDB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
